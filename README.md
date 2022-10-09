@@ -88,6 +88,7 @@ The full Tableau dashboard can be assessed via this [link](https://public.tablea
 ## Stage 6: ACT
 ### **Conclusion:**
 I completed  my analysis and visualizations, so final CONCLUSION are as follows:
+
 Total rides within September 2021- August 2022 = 4,559,680
 
 Total rides by riders with membership within the same period = 2,681,916
