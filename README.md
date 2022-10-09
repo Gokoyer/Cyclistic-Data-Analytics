@@ -71,15 +71,15 @@ all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m") Ot
  
  Anyone interested to view individual data in Tableau can do so via all the links below:
 [member-casual count](https://public.tableau.com/app/profile/gboyega6535/viz/member-casualcount/member-casual?publish=yes)
-[member-casual by Rideable Type]
-Average Ride Length by Weekday
-Total Rides by Weekday
-Total Rides by Season
-Total Rides by Month by Season
-Total Rides by Hour
+[member-casual by Rideable Type](https://public.tableau.com/app/profile/gboyega6535/viz/member-casualbyRideableType/bike_type?publish=yes)
+[Average Ride Length by Weekday](https://public.tableau.com/app/profile/gboyega6535/viz/AverageRideLengthbyWeekday/RideLengthperWeekday?publish=yes)
+[Total Rides by Weekday](https://public.tableau.com/app/profile/gboyega6535/viz/TotalRidesbyWeekday/TotalRidesPerWeekday?publish=yes)
+[Total Rides by Season](https://public.tableau.com/app/profile/gboyega6535/viz/TotalRidesbySeason/TotalRidesPerSeason?publish=yes)
+[Total Rides by Month by Season](https://public.tableau.com/app/profile/gboyega6535/viz/TotalRidesbyMonthbySeason/TotalRidesByMonthsBySeasons?publish=yes)
+[Total Rides by Hour](https://public.tableau.com/app/profile/gboyega6535/viz/TotalRidesbyHour/TotalRidesPerHour?publish=yes)
 
 
-The full Tableau dashboard can be assessed via this link.
+The full Tableau dashboard can be assessed via this [link](https://public.tableau.com/app/profile/gboyega6535/viz/ChicagoCyclisticBikeShareAnalysisCaseStudy-GoogleDataAnalyticsCapstoneProject/GDAPCDashboard).
 
  
  
