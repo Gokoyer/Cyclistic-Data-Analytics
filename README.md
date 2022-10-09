@@ -69,6 +69,19 @@ all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m") Ot
  
  ![7_Total Rides by Hour](https://user-images.githubusercontent.com/36123056/194763774-50df623f-48db-401a-a6df-5db7836fbd8d.png)
  
+ Anyone interested to view individual data in Tableau can do so via all the links below:
+[member-casual count]
+[member-casual by Rideable Type]
+Average Ride Length by Weekday
+Total Rides by Weekday
+Total Rides by Season
+Total Rides by Month by Season
+Total Rides by Hour
+
+
+The full Tableau dashboard can be assessed via this link.
+
+ 
  
 
 
