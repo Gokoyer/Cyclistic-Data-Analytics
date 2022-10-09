@@ -59,6 +59,16 @@ all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m") Ot
  
  ![2_member-casual by rideable type](https://user-images.githubusercontent.com/36123056/194763267-9ed6a69e-f600-4482-a868-8b7ad30ef292.png)
  
+ ![3_Average Ride Length by Weekday](https://user-images.githubusercontent.com/36123056/194763648-6fa218f5-ee95-42e5-87a7-789604e96fb9.png)
+ 
+ ![4_Total Rides Per Weekday](https://user-images.githubusercontent.com/36123056/194763698-9cfb3eac-864a-414a-9811-362744081fe6.png)
+ 
+ ![5_Total Rides Per Season](https://user-images.githubusercontent.com/36123056/194763719-8dc7d679-4d0a-4c19-a370-21fb8a1d1bac.png)
+ 
+ ![6_Total Rides By Months By Seasons](https://user-images.githubusercontent.com/36123056/194763750-f559b8b8-cd6b-46f4-a216-ce18ad2163d3.png)
+ 
+ ![7_Total Rides by Hour](https://user-images.githubusercontent.com/36123056/194763774-50df623f-48db-401a-a6df-5db7836fbd8d.png)
+ 
  
 
 
