@@ -136,13 +136,14 @@ This same strategy to be applied on weekends can also be employed during the sum
  
 
 
-RESOURCES
+#### RESOURCES
 (i) Youtube videos (channels such as Alex the Analyst, Tableau Pro,  Art of Visualization, Statistics Globe, RichardOnData)
 
 (ii) Stackoverflow
 
 (iii) www.programmingr.com
-(iv) The raw data in csv format can be found link
+
+(iv) The raw data in csv format can be found [link](https://divvy-tripdata.s3.amazonaws.com/index.html?fbclid=IwAR1nonJc8u4-NMZvovoYLSPRohbnMSbChGaTYPIyhAR4Sxj4RDj5YbEw_pA)
 
 (v) Google documents
 
