@@ -53,5 +53,11 @@ v) month :- In this column, corresponding months that riders started their journ
 all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m") Other codes can be found in [R code](https://github.com/Gokoyer/Cyclistic-Data-Analytics/blob/master/2_cyclistic_30_9.R). 
 
 
+## Stage 4: SHARE 
+ Since Tableau is the visualization tool that we used in Google Data Analytics Professional Certificate, I decided to use it. Some of the visualizations that were created can be seen below:
+ 
+ 
+
+
 
 
