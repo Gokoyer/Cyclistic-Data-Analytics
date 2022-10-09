@@ -18,9 +18,20 @@ In 2016, Cyclistic Bike Share from California launched a successful bike-share o
 ## Stage 1: ASK
 **Business Question :** I have been assigned to answer this question: How do annual members and casual riders use Cyclistic bikes differently? This question needs to be answered in order to make data-driven decisions in our Bike-Share Company Cyclistic.
 
-## Stage 1: PREPARE
+## Stage 2: PREPARE
 Stage 2: PREPARE
 According to improvado blog site, Data preparation is the act of aggregating raw data and transforming it into a format that can be easily analyzed. This can be simply put as the process of collecting and storing data for analysis. Since I know the question that needs to be answered, I will go ahead to briefly explain how I prepared and processed my data. 
 
 On the 25th of September, 2022, I downloaded the last 12 months data. So, I downloaded data within September 2021 - August 2022 from this [site](https://divvy-tripdata.s3.amazonaws.com/index.html). September 2022 data was not available at the time I started the project. All the data were in zip files in csv format. I extracted them, and downloaded the files. Another folder is then created to convert the data into worksheets. After I had extracted the files, all the 12 months data to be analyzed can be found here in udrop folder. All the data were put in their column to better study them.
+
+## Stage 2: PROCESS
+During this stage I clean and check the data information to ensure its integrity. After thoroughly studied the downloaded data and went through the business questions, I realized that two additional columns will be needed at this point for all the 12 months data: 
+a) ride_length( ended_at column minus started_at column). The started_at column and ended_at column contain the time that each rider started and ended their journeys respectively. 
+b) day_of_week is calculated to be the day of the week for each trip.  I have to do this for all the 12 files since it will be too big for excel to merge them together. I saved the calculated data in a separate folder.
+
+I made use of excel extensively by working on the data on worksheets(xlsx). In all the 12 months data, each of them has three sheets in them. One is for the raw data, while the second and the third sheets are working sheets and pivot tables. I created pivot tables for each data. Some of the values that were calculated include: Total number of member-casual base on types of rideable type, Total number of member-casual base on users(heavy, low, and normal users), Average ride length, maximum ride length, number of riders on weekdays base on member-casual. Because of time, I did not go further with creating a dashboard on excel since I will do that eventually for visualization. By making my hands dirty, the working sheets and pivot tables for all the twelve months can be seen in [udrop link here] (https://www.udrop.com/folder/8ab1c577fbb32925cc6e24ec20801e61/Worksheet_for_pivot_tabele-_Cyclistic_Bike_Share_Data).
+
+ I wanted to use SQL at first but since R was taught in the course also, I decided to enhance my R skills with other tasks such as merging of the 12 files, creation of more tables, format and transformation of data. 
+
+
 
