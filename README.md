@@ -53,7 +53,7 @@ v) month :- In this column, corresponding months that riders started their journ
 all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m") Other codes can be found in [R code](https://github.com/Gokoyer/Cyclistic-Data-Analytics/blob/master/2_cyclistic_30_9.R). 
 
 
-## Stage 4: SHARE 
+## Stage 5: SHARE 
  Since Tableau is the visualization tool that we used in Google Data Analytics Professional Certificate, I decided to use it. Some of the visualizations that were created can be seen below:
  ![1_member-casual count](https://user-images.githubusercontent.com/36123056/194763199-b0066347-6875-44d9-8f93-bf9a434d977e.png)
  
@@ -83,6 +83,67 @@ The full Tableau dashboard can be assessed via this [link](https://public.tablea
 
 
 ![8_GDAPC Dashboard](https://user-images.githubusercontent.com/36123056/194764478-0f0520be-4b6d-48f7-94d8-083d3e2734f0.png)
+
+
+## Stage 6: ACT
+###**Conclusion:**
+I completed  my analysis and visualizations, so final CONCLUSION are as follows:
+Total rides within September 2021- August 2022 = 4,559,680
+
+Total rides by riders with membership within the same period = 2,681,916
+
+Total rides by casual riders = 1,877, 764.
+
+The most used Rideable Type = Classic bikes
+
+The least used Rideable type = docked bike
+
+Docked bikes were used only by casual riders
+
+The busiest weekday in terms of Ride length = Sunday
+
+Casual riders generally spend more time riding than members i.e casuals ride length is more than that of members
+
+The busiest weekday in terms of number of rides is Saturday
+
+The busiest season is Summer with total rides equals 1,868,202
+
+The busiest month is July with total rides =  642,621
+
+The busiest time of the day is 17.00 which has total rides = 469,475
+
+
+Marketing Analyst Team Insights:
+One of the insights that our team gained during the course of the analysis is that the number of members at Cyclistic is 48% more than those that ride casually. In our opinion, it is believed that it is more economical to use bikes as members other than casual.  
+
+At Chicago based bike-share company, Classic bikes are the most popular rideable type among the users while docked bikes are not popular among the users. What this may mean is that Classic bikes are not as complicated to use as the other two rideable types. The reason docked types are the least popular among riders may be because the bikes are docked and locked down, and this may take additional periods of time and be stressful to undock. 
+
+Saturday and Sunday are the busiest days in the week. The busiest weekday in terms of number of rides is Saturday while the busiest weekday in terms of Ride length is Sunday. This is the weekend. I think this is due to the fact that more people have free time during these days than any other days in the week. Some of the users may ride because of leisure and have fun particularly when the weather is brightest.
+
+Summer with the brightest weather is the busiest season across all the year. Undoubtedly, this is because outdoor activities used to increase significantly during this period of the year. So, it is understandable that more riders will patronize Cyclistic.
+
+The busiest month and time of the day is July and 17.00. It is noted that July is the busiest month of july. This is because July is the peak during the summer season and more people used to go for their annual vacation at this time.
+
+Implementation of Insights:
+Sensitization and awareness should be created via printing and electronic   media that it is pocket friendly to be members of Cyclistic other than casual riders. It is essential to let casual riders realize how much money that will be saved within one year if they convert to members.
+
+In case class bikes and electric bikes are more cost effective than docked bikes, our team will suggest that docked bikes should be abolished. This development may encourage casual members to change to members and this may also attract new riders to join our family.
+
+SInce it has been established that weekends are always busiest during the weekdays, stakeholders should look at ways to provide discounts on weekends in order to maximize profit on weekends.
+
+This same strategy to be applied on weekends can also be employed during the summer season as well. This is to give opportunities to potential riders that are not financially buoyant to patronize Cyclistic. A very good example are pupils that will be on long vacation in summer. 
+
+ 
+
+
+RESOURCES
+Youtube videos (channels such as Alex the Analyst, Tableau Pro,  Art of Visualization, Statistics Globe, RichardOnData)
+Stackoverflow
+www.programmingr.com
+The raw data in csv format can be found link
+Udrop
+Google documents
+
 
  
  
