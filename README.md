@@ -81,6 +81,9 @@ all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m") Ot
 
 The full Tableau dashboard can be assessed via this [link](https://public.tableau.com/app/profile/gboyega6535/viz/ChicagoCyclisticBikeShareAnalysisCaseStudy-GoogleDataAnalyticsCapstoneProject/GDAPCDashboard).
 
+
+![8_GDAPC Dashboard](https://user-images.githubusercontent.com/36123056/194764478-0f0520be-4b6d-48f7-94d8-083d3e2734f0.png)
+
  
  
 
