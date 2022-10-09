@@ -50,7 +50,7 @@ iv) Name of day of week :- This data represents the day names(Sunday, Monday and
  all_12months_data$day_of_week <- wday(all_12months_data$started_at) .
 
 v) month :- In this column, corresponding months that riders started their journeys are represented by numbers where for example “9” stands for September.
-all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m")
+all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m") Other codes can be found in [R code](https://github.com/Gokoyer/Cyclistic-Data-Analytics/blob/master/2_cyclistic_30_9.R). 
 
 
 
