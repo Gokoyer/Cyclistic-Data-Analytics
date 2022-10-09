@@ -55,6 +55,7 @@ all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m") Ot
 
 ## Stage 4: SHARE 
  Since Tableau is the visualization tool that we used in Google Data Analytics Professional Certificate, I decided to use it. Some of the visualizations that were created can be seen below:
+ ![1_member-casual count](https://user-images.githubusercontent.com/36123056/194763199-b0066347-6875-44d9-8f93-bf9a434d977e.png)
  
  
 
