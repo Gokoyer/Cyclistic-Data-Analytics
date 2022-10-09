@@ -137,12 +137,14 @@ This same strategy to be applied on weekends can also be employed during the sum
 
 
 RESOURCES
-Youtube videos (channels such as Alex the Analyst, Tableau Pro,  Art of Visualization, Statistics Globe, RichardOnData)
-Stackoverflow
-www.programmingr.com
-The raw data in csv format can be found link
-Udrop
-Google documents
+(i) Youtube videos (channels such as Alex the Analyst, Tableau Pro,  Art of Visualization, Statistics Globe, RichardOnData)
+
+(ii) Stackoverflow
+
+(iii) www.programmingr.com
+(iv) The raw data in csv format can be found link
+
+(v) Google documents
 
 
  
