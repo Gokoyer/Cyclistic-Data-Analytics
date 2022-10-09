@@ -32,6 +32,26 @@ b) day_of_week is calculated to be the day of the week for each trip.  I have to
 I made use of excel extensively by working on the data on worksheets(xlsx). In all the 12 months data, each of them has three sheets in them. One is for the raw data, while the second and the third sheets are working sheets and pivot tables. I created pivot tables for each data. Some of the values that were calculated include: Total number of member-casual base on types of rideable type, Total number of member-casual base on users(heavy, low, and normal users), Average ride length, maximum ride length, number of riders on weekdays base on member-casual. Because of time, I did not go further with creating a dashboard on excel since I will do that eventually for visualization.n. By making my hands dirty, the working sheets and pivot tables for all the twelve months can be seen in this [udrop](https://www.udrop.com/folder/8ab1c577fbb32925cc6e24ec20801e61/Worksheet_for_pivot_tabele-_Cyclistic_Bike_Share_Data).
 
  I wanted to use SQL at first but since R was taught in the course also, I decided to enhance my R skills with other tasks such as merging of the 12 files, creation of more tables, format and transformation of data. 
+ 
+## Stage 4: ANALYSE
+ As stated above, R was used to format and transform and merged data. Our data is sorted, filtered and columns that are not needed are deleted while more columns are added.
+
+My full R code  is provided here on my [github](https://github.com/Gokoyer/Cyclistic-Data-Analytics/blob/master/2_cyclistic_30_9.R). For the sake of clarity and conciseness, I exclude all my mistakes and errors.
+Below are all the new columns that were added to the merged data file:
+i) ride_length - this is the time each rider travels in a single trip.The difference between the ended_at time and started_at time will result in ride_length. Difftime function is used and the resultant value is converted to minutes. all_12months_data$ride_length <- difftime(cyclistic_df$ended_at, cyclistic_df$started_at, units = "mins")
+
+ii)ride_date:- Started_at date is used. The function that is applied here is 
+as.Date. all_12months_data$ride_date <- as.Date(all_12months_data$started_at)
+
+iii) day_of_week :- In this column, it shows days in numerical form(1=Sunday, 2= Monday, 3 = Tuesday, 4= wednesday, 5= Thursday, 6= Friday, 7=Saturday) in which riders start their journey. wday function is used. By default, 1 stands for Sunday. 
+
+iv) Name of day of week :- This data represents the day names(Sunday, Monday and etc) The function that is used here is format
+(as.Date(Data)). 
+ all_12months_data$day_of_week <- wday(all_12months_data$started_at) .
+
+v) month :- In this column, corresponding months that riders started their journeys are represented by numbers where for example “9” stands for September.
+all_12months_data$month <- format(as.Date(all_12months_data$ride_date), "%m")
+
 
 
 
